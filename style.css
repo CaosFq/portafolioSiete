@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: #020403;
+}
+
+nav{
+    background:#020403;
+    height: 55px;
+    display:flex;
+    align-items: center;
+    justify-content: flex end;
+}
+.hamburger{
+    padding-right: 5rem;
+    margin-left: 20rem;
+}
+
+.svg{
+    color:#ffffff;
+    margin-left: 678px;
+     margin-left: 2rem;
+
+}
+
+
+.fotito{
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 7.5rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    padding-left: 50px;
+    
+}
+
+
+    
+.redes{
+display: flex;
+margin-top: 0.8rem;
+gap:2rem;
+
+
+ }
+ nav a:hover{
+    color:rgb(50, 50, 124);
+
+ }
+    
+.redes, li{
+        list-style: none;
+        margin-left: 4rem;
+        gap: 6px;
+
+    }
+
+    .uno, .dos, .tres{
+        font-size:clamp(40px, 6vw, 150px) ;
+        line-height: 100%;
+        color:#ffffff;
+
+        
+    }
+.uno{
+    margin-left:10rem;
+    
+}
+.dos{
+    margin-left: 9rem;
+}
+.tres{
+    margin-left: 14rem;
+}
+.cero{
+    margin-left: 12rem;
+    font-size: clamp(18px, 4vw, 50px);
+    color: #ffffff;
+}
+nav ul{
+   
+ 
+   display: none;
+   width: 100%;
+   justify-content:flex end;
+    margin-left: 2rem;
+   gap: 8rem;
+   margin-right:1rem ;
+}
+
+
+nav, a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+@media(min-width: 900px)  {
+    nav ul{
+        display: flex;
+    }
+    .svg{
+        display: none;
+    }
+    .uno{
+        margin-left: 30rem;
+
+    }
+    .alineo{
+     display:flex;
+    
+    }
+    .dos{
+    margin-left: 28rem;
+    }
+    .tres{
+        margin-left: 1rem;
+    }
+    .cero{
+        margin-left: 35rem;
+    }
+    .fotito{
+        margin-left: 38rem;
+    }
+    .redes{
+        margin-left: 35rem;
+        margin-top: 3rem;
+    }
+   .about{
+    margin-left: 30rem;
+   }
+   .mis_habilidades .mobile .motion{
+    flex-direction: row;
+   }
+  
+
+   .mis_habilidades .creacion .desarrollo{
+    flex-direction: row;
+   }
+   .experiencia{
+    margin-left: 30rem;
+   }
+   .portafolio .ejUno .ejDos .ejTres{
+   flex-direction: row;
+   }
+   .port{
+    margin-left: 50rem;
+    margin-bottom: 4rem;
+   }
+   .portafolio, h2{
+    margin-left: 10rem;
+   }
+   .portafolio h2{
+    margin-left: 30rem;
+
+   
+   
+   }
+   .contact .centro{
+    margin-left: 37rem;
+    margin-top: 4rem;
+   }
+   
+
+    .tubaso{
+        margin-left: rem;
+        }
+        .avioncito{
+            margin-left: 4rem;}
+
+
+            .listo{
+                margin-left: 40rem; 
+            }
+            
+      
+
+
+}
+
+
+
+
+
+
+
+
+    
+
+
+h2{
+    margin-left: 12rem;
+    margin-top: 2rem;
+    margin-bottom:1.5rem ;
+}
+.primero{
+    margin-left: 2rem;
+}
+.segundo{
+    margin-left: 1.7rem;
+}
+.tercero{
+    margin-left: 12rem;
+}
+.primero, .segundo, .tercero{
+    font-size: 16px;
+}
+.about{
+   
+    color: #ffffff;
+    margin-top: 2rem;
+    font-size: clamp(25px, 6vw, 50px);
+   
+}
+.mis_habilidades{
+    margin-top: 2rem;
+    margin-left: 13rem;
+    font-size: clamp(25px, 4vw, 50px);
+  
+
+}
+.mobile{
+
+margin-bottom: 0.001rem;
+width: 10%;
+height: 50%;
+background-color:#3b3b3b;
+border-radius: 50%;
+}
+.motion{
+    margin-bottom: 0.01rem;
+    width: 10%;
+height: 10%;
+background-color:#3b3b3b;
+border-radius: 50%;
+}
+.creacion{
+    margin-bottom: 1rem; 
+    width: 10%;
+height: 10%;
+background-color:#3b3b3b;
+border-radius: 50%;
+}
+.desarrollo{
+margin-bottom: 1rem; 
+ width: 10%;
+height: 10%;
+background-color:#3b3b3b;
+border-radius: 50%
+
+}
+.Mobile, .Motion, .Creacion, .Desarrollo{
+
+    color: #ffffff;
+    font-size: clamp(16px, 2vw, 20px);
+}
+.mis_habilidades .mobile .motion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.mis_habilidades .creacion .desarrollo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.experiencia{
+    color: #ffffff;
+    font-size: clamp(25px, 1vw, 50px);
+
+}
+.exp{
+    margin-left: 11rem;
+}
+
+.port{
+    color: #ffffff;
+    margin-left: 2rem;
+
+    font-size: clamp(25px, 4vw, 50px);
+   
+}
+.portafolio .ejUno .ejDos .ejTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+
+margin-left: 3rem;
+ 
+
+}
+.contact{
+   
+  
+    color: #ffffff;
+}
+.contact{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.contact, h2{
+    margin-left: 2rem;
+    font-size: clamp(25px, 4vw, 50px);
+
+}
+ 
+
+    
+.about h2{
+    margin-left: 11rem;
+
+}
+ .centro, .tubaso, .llamame{
+    margin-left: 1rem;
+}
+.tubaso{
+    margin-right: 5rem;
+}
+.listo{
+    margin-left:2rem; 
+}
+
